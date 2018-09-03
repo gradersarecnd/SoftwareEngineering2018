@@ -5,6 +5,7 @@ public class Question1 {
 	public Question1(){}
 	
 	public int getSumWithoutDuplicates(int[] numbers){
+		System.out.println("Hello");
 		return 0;	
 	}
 }
