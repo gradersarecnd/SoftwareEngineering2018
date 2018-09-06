@@ -8,6 +8,7 @@ public class Question1 {
 	public Question1(){}
 	
 	public int getSumWithoutDuplicates(int[] numbers){
+
 		Set<Integer> seen = new HashSet<Integer>();
 		int total = 0;
 		for (int i : numbers) {
@@ -19,5 +20,9 @@ public class Question1 {
 			}		
 		}
 		return total;	
+
+		System.out.println("Hello");
+		return 0;	
+
 	}
 }
