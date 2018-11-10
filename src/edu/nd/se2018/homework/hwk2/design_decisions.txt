@@ -1,0 +1,19 @@
+Software Development - Homework 02
+Seungjun (Joseph) Han
+
+This homework assignment to simulate a car race required strategy design. The
+main class just created an object of race class to simulate a sample race to
+test it. Within the race class, there are several methods such as addCar() which
+as its name suggests, adds objects of cars to list called 'lineup.' It also has
+other methods such as displayStatus() which displays the current location of
+the vehicles through text. In addition, there is a car class which is followed
+by the different interfaces of the various racing strategy. This design
+implementation allows me to easily add other types of strategies. The car class
+contains the methods which the racing class class. The car class also uses
+interface of the different strategies which can be applied to other non-car
+objects. Running a race is as simple as the provided sample test. Users just
+need to create a race object to which car objects are added. The car objects are
+stored in a list of dogs which is used to keep track of the locations of other
+cars as well as calculate the first place winner. OOP strategy design allows
+programmers to break down the program to various classes and interfaces that can
+be easily added on to or modified for future improvements or additions.
